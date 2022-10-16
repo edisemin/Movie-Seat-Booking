@@ -10,8 +10,6 @@ let ticketPrice = +movieSelect.value;
 // This value depends on movieSelect, which populateUI pulls from LS
  
 function setMovieData(movieIndex) {
-    // The moviePrice parameter is not necessary (because it follows from the 
-    // selected movie)
   localStorage.setItem("selectedMovieIndex", movieIndex);
 }
  
